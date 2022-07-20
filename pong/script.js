@@ -118,7 +118,8 @@ function drive_paddle_2() {
 }
 
 function draw() {
-    ctx.clearRect(0, 0, width, height);
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, width, height);
     paddle1.draw();
     paddle2.draw();
     ball.update();
