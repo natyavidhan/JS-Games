@@ -65,6 +65,7 @@ class Game{
         this.snake.ySpeed = 0;
         this.snake.tail = [];
         this.snake.tailLength = 1;
+        this.score = 0;
         this.generateFood();
     }
     generateFood(){
